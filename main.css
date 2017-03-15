@@ -6,7 +6,7 @@
 body {
   font-family: 'Playfair Display', serif;
   font-size: 15px;
-  background-color: snow;
+  background-color: #FFFAFA;
 }
 
 div .left {
@@ -81,9 +81,16 @@ blockquote {
   background-color: #FFFFE0;
 }
 
+.header {
+  background-color: #FFFAFA;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 18px;
+  color: #BC8F8F;
+}
+
 .subtitle {
   font-family: 'Playfair Display SC', serif;
-  color: #4169E1;
+  color: #0000CD;
   font-weight: 900;
   font-size: 20px;
 }
