@@ -1,0 +1,89 @@
+/**@import url('http://getbootstrap.com/dist/css/bootstrap.css');
+
+.fixed {overflow:hidden; background:orange; }
+.scrollit {overflow-y:scroll; background:lightgray; }
+**/
+body {
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  background-color: snow;
+}
+
+div .left {
+  padding-left: 60px;
+  background-color: snow;
+}
+
+div .right {
+    padding-left: 50px;
+    background-color: snow;
+    padding-top: 120px;
+}
+
+img {
+ width: 65%;
+ height: 65%;
+}
+
+h1 {
+  font-family: 'Playfair Display SC', serif;
+  color: black;
+  font-weight: 900;
+}
+
+h2, h3 {
+  padding-left: 10px;
+  font-weight: 900;
+  line-height: 10px;
+}
+
+h4 {
+  padding-left: 10px;
+  font-weight: 900;
+}
+
+.here {
+  background-color: bisque;
+}
+
+/*a {
+  color: dodgerblue;
+}*/
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: forestgreen;
+}
+
+.list-credits {
+    text-align: left;
+    color: gray;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+hr {
+    background-color: khaki;
+    border: none;
+    height: 1px;
+    margin: 2.0px;
+}
+
+blockquote {
+  color: #000000;
+  font-size: 16px;
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #FFFFE0;
+}
+
+.subtitle {
+  font-family: 'Playfair Display SC', serif;
+  color: #4169E1;
+  font-weight: 900;
+  font-size: 20px;
+}
