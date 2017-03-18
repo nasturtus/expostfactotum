@@ -94,3 +94,32 @@ blockquote {
   font-weight: 900;
   font-size: 20px;
 }
+
+/*responsive guru's code start here*/
+
+div .left {
+  margin-top: 100px;
+  position: fixed;
+}
+.middle{
+  padding: 90px 0px;
+}
+
+/*mobile or small devices*/
+@media only screen and (max-width: 767px){
+ blockquote{
+  overflow-x: hidden;
+ }
+div .left {
+  margin-top: 50px;
+  position: static;
+  padding-left: 15px;
+}
+.middle{
+  padding: 50px 0px;
+}
+div .right{
+  padding-left: 15px;
+  padding-top: 70px;
+}
+}
