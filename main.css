@@ -52,10 +52,16 @@ h4 {
 
 a {
   color: black;
+  text-decoration: none;
+  border-bottom: 1px dotted #0000FF;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 a:visited {
-  color: forestgreen;
+  color: none;
 }
 
 .list-credits {
